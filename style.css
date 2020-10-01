@@ -1,0 +1,247 @@
+*,*:before,*:after{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+
+    @media screen and (max-width: 800px) {
+        .left, .main, .right {
+          width: auto;    
+        }
+    }
+    body{
+        width: auto;
+        height: autovh;
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(left,#7579ff,#b224ef);
+    margin: auto;
+    
+    
+}
+    
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: auto;    
+  }
+}
+    .form{
+    
+    
+        position: relative;
+    width: 640px;
+    height: 100%;
+    padding: 50px 30px;
+    -webkit-transition: -webkit-transform 1.2s ease-in-out;
+    transition: -webkit-transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out;-webkit-transition: 1.2s ease-in-out;
+
+    
+    }
+    .container{
+    
+        overflow: hidden;
+        position:relative;
+        width: 1200px;
+        height: 900px;
+        background: #fff;
+       
+       
+        
+        }
+     
+h1{
+    margin-left: 100px;
+    color: dimgray;
+    background-color: transparent;
+    animation:aagepiche 2s linear infinite;
+animation-direction:alternate;
+}
+@keyframes aagepiche{
+	from{ padding-left:40px;}
+to{padding-right:40px;}
+}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: auto;    
+  }
+}
+
+        
+     table{
+       border: 2px transparent;
+        table-layout: fixed;
+        width: 300px;
+      
+     }
+     th{
+
+border: 2px solid;
+              width: 200px;
+        overflow: hidden;
+    color: brown; 
+    word-spacing: 20px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-top: 500px;
+     font-size: 20px;
+     font-weight: 200;
+
+}
+td{
+
+    width: 200px;
+    overflow: hidden;
+color: darkblue; 
+word-spacing: 20px;
+text-align: justify;
+margin-left: 150px;
+margin-top: 500px;
+ font-size: 20px;
+
+}
+table1{
+    border: 2px transparent;
+     table-layout: fixed;
+     width: 300px;
+   
+  }
+  th{
+
+border: 2px solid;
+           width: 200px;
+     overflow: hidden;
+ color: brown; 
+ word-spacing: 20px;
+ text-align: justify;
+ margin-left: 150px;
+ margin-top: 500px;
+  font-size: 20px;
+  font-weight: 200;
+
+}
+
+.btn{
+
+margin-top: 90px;
+margin-left: 200px;
+background-color:crimson; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+transition-duration: 0.4s;
+
+}
+btn :hover{
+
+  
+   
+}
+     
+table1{
+    border: 2px transparent;
+     table-layout: fixed;
+     width: 300px;
+   
+  }
+  th{
+
+border: 2px solid;
+           width: 200px;
+     overflow: hidden;
+ color: brown; 
+ word-spacing: 20px;
+ text-align: justify;
+ margin-left: 150px;
+ margin-top: 500px;
+  font-size: 20px;
+  font-weight: 200;
+
+}
+
+ .a1{
+
+
+}
+.heading{
+
+margin-top: 100px;
+color: tomato;
+}
+.link{
+
+margin-top: 200px;
+margin-left: 150px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.link :hover{
+
+    cursor: pointer;
+color: tomato;
+
+}
+.safety{
+    position: absolute;
+   margin-left: 400px;
+   padding-left: 130px;
+padding-bottom: 190px;
+
+
+
+
+}
+.tips{
+
+position:absolute;
+margin-left: 220px;
+margin-top: 250px;
+
+}
+@keyframes drop{
+
+
+0%{
+
+opacity: 0;
+transform: translateY(-80px);
+
+}
+
+100%{
+opacity: 1;
+transform: translateY(0px);
+}
+}
+@media screen and(max-width:1024px){
+
+  body{
+    display: none;
+  }
+}
+.form{
+
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.date{
+
+  font-size: 20px;
+  margin-left: 50px,auto;
+  color: black;
+  font-weight: 200;
+}
